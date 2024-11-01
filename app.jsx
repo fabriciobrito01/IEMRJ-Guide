@@ -3,6 +3,7 @@ import Header from './src/components/header.jsx';
 import Footer from './src/components/footer.jsx';
 import Begin from './src/components/begin.jsx';
 import Map from './src/components/mapa.jsx';
+import Teams from './src/components/times.jsx';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <section id="mapa" style={{ height: 'auto'}}>
         <Map />
       </section>
-      <section id="services" style={{ height: 'auto'}}>
+      <section id="times" style={{ height: 'auto'}}>
+        <Teams />
       </section>
       <section id="contact" style={{ height: 'auto'}}>
       </section>
