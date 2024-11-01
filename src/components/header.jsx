@@ -16,7 +16,7 @@ function Header() {
         {menuOpen && (
           <div className="header-menu-options">
             <ul>
-              
+
             </ul>
           </div>
         )}
