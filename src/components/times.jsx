@@ -32,6 +32,11 @@ const teamsByRegion = {
       logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2022/04/fnatic.png?w=300",
       description: "A Fnatic é uma organização de eSports histórica, fundada em 2004 no Reino Unido, e uma das pioneiras no cenário de Counter-Strike. Desde os primeiros dias do CS, a Fnatic estabeleceu seu legado ao conquistar diversos campeonatos e, em 2015, se tornou uma das primeiras equipes a vencer três Majors de CS. Conhecida por promover grandes talentos suecos e internacionais, a organização é responsável por revelar alguns dos maiores jogadores da história do jogo.",
     },
+        {
+      name: "CLOUD9",
+      logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2022/04/cloud9.png?w=300",
+      description: "A Cloud9 é uma organização norte-americana de eSports, fundada em 2013, que rapidamente se tornou uma potência no cenário de Counter-Strike. Embora tenha participado de várias modalidades de eSports, a C9 é especialmente lembrada por sua histórica vitória no Major de Boston em 2018, sendo a primeira equipe norte-americana a conquistar um título desse nível em CS. Ao longo dos anos, a organização passou por diversas reformulações e buscou talentos internacionais para se manter entre as melhores do mundo.",
+    },
     {
       name: "B8",
       logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2021/09/B8_Logo_white.png?w=300",
@@ -39,47 +44,73 @@ const teamsByRegion = {
     },
   ],
   NA: [
-    {
-      name: "CLOUD9",
-      logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2022/04/cloud9.png?w=300",
-      description: "A Cloud9 é uma organização norte-americana de eSports, fundada em 2013, que rapidamente se tornou uma potência no cenário de Counter-Strike. Embora tenha participado de várias modalidades de eSports, a C9 é especialmente lembrada por sua histórica vitória no Major de Boston em 2018, sendo a primeira equipe norte-americana a conquistar um título desse nível em CS. Ao longo dos anos, a organização passou por diversas reformulações e buscou talentos internacionais para se manter entre as melhores do mundo.",
-    },
+
     {
       name: "TEAM LIQUID",
       logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2023/11/team-liquid-2.png?w=300",
-      description: ""
+      description: "A Team Liquid é uma organização de eSports norte-americana, fundada em 2000, que se consolidou como uma das equipes mais respeitadas e bem-sucedidas no cenário de Counter-Strike. Desde sua entrada no CS, a Liquid se destacou por suas performances em torneios internacionais, alcançando várias finais e conquistando títulos importantes, incluindo o IEM World Championship em 2020 e o Blast Premier Global Final em 2021. Com uma forte base de fãs e uma presença significativa em diversas competições, a Team Liquid continua a se esforçar para permanecer entre as melhores equipes de CS2, combinando a experiência de veteranos com o potencial de novos talentos."
     },
     {
       name: "LEGACY",
       logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2024/03/Legacy.png?w=300",
-      description: ""
+      description: "A Legacy é uma organização de eSports australiana, fundada em 2015, que se destacou no cenário de Counter-Strike, especialmente na região da Oceania. Ao longo dos anos, a equipe conquistou vários títulos importantes, incluindo o ESEA Australia, onde frequentemente se posicionou entre as melhores equipes do circuito. Além de seus sucessos regionais, a equipe tem buscado competir em torneios internacionais, com o objetivo de expandir sua presença global."
     },
     {
       name: "PARTY-ASTRONAUTS",
       logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2023/03/Party-Astronauts.png?w=300",
-      description: "",
+      description: "A Party Astronauts é uma equipe de eSports norte-americana, conhecida por sua dedicação e performances no cenário de Counter-Strike. Desde sua fundação em 2020, a equipe rapidamente se destacou nas competições regionais, conquistando títulos em ligas como a ESEA e a CEVO, onde demonstraram um forte desempenho contra adversários variados. A Party Astronauts também tem participado de diversos torneios de classificação, buscando expandir sua presença e visibilidade no cenário competitivo. A organização é reconhecida por sua capacidade de desenvolver talentos, promovendo um ambiente colaborativo e de crescimento entre os jogadores.",
     },
     {
       name: "LAG GAMING",
       logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2024/03/LAG-Gaming.png?w=300",
-      description: "",
+      description: "A LAG Gaming é uma organização de eSports internacional, conhecida principalmente no cenário de Counter-Strike. Desde sua fundação, a equipe se destacou por suas performances em competições regionais e internacionais, acumulando uma série de conquistas significativas. A LAG tem participado de diversas ligas, onde conquistou títulos em torneios como a ESEA e a Funspark ULTI, demonstrando sua habilidade e determinação no competitivo. A organização é reconhecida por investir em talentos emergentes, proporcionando uma plataforma para jogadores se destacarem.",
     }
-  ],
-  ASIA: [
-    {
-      name: "ETERNAL FIRE",
-      logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2023/10/Eternal-Fire.png?w=300",
-      description: "Eternal Fire é uma equipe de CS da Turquia...",
-    },
-    // Adicione outros times da região ASIA
   ],
   SA: [
     {
-      name: "B8",
-      logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2021/09/B8_Logo_white.png?w=300",
-      description: "A B8 é uma organização de eSports ucraniana...",
+      name: "MIBR",
+      logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2023/03/MIBR.png?w=300",
+      description: "A MIBR é uma das organizações mais icônicas de eSports no Brasil, com uma rica história no cenário de Counter-Strike. Fundada em 2003, a MIBR rapidamente ganhou notoriedade, especialmente durante os anos de ouro do CS 1.6, conquistando títulos importantes como a World Cyber Games e a Extreme Masters. Após um período de reestruturação, a organização voltou a se destacar em 2017 com uma nova formação em CS, alcançando a final do ESL Pro League e conquistando o título do BLAST Premier em 2020. A MIBR é conhecida por sua paixão e lealdade dos fãs, representando o Brasil em competições internacionais e buscando constantemente retornar ao topo do cenário global. Com um foco no desenvolvimento de talentos locais, a MIBR continua a ser uma força significativa no eSports, mantendo viva a tradição do cenário brasileiro.",
     },
-    // Adicione outros times da região SA
+    {
+      name: "PAIN GAMING",
+      logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2023/03/pain-gaming.png?w=300",
+      description: "A paiN Gaming é uma das organizações de eSports mais renomadas do Brasil, fundada em 2010. Desde sua criação, a paiN tem se destacado em várias modalidades, incluindo o cenário de Counter-Strike. A equipe de CS conquistou diversos títulos importantes, incluindo o Campeonato Brasileiro de e-Sports e competições na Gamers Club, consolidando sua posição como uma das principais forças do país. Com uma abordagem voltada para o desenvolvimento de talentos, a paiN Gaming tem se focado em formar jogadores promissores e tem sido um verdadeiro celeiro de talentos para o cenário competitivo brasileiro.",
+    },
+    {
+      name: "RED CANIDS",
+      logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2023/05/RED-Canids.png?w=300",
+      description: "A RED Canids é uma organização de eSports brasileira, fundada em 2019, que rapidamente se destacou no cenário competitivo, especialmente em jogos como League of Legends e Counter-Strike. A equipe de CS tem mostrado um crescimento constante, conquistando títulos em competições regionais, como a Gamers Club, e se destacando em torneios importantes como a Liga Brasileira de Counter-Strike.",
+    },
+    {
+      name: "IMPERIAL",
+      logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2023/05/Imperial-Sportsbet.png?w=300",
+      description: "A Imperial é uma organização de eSports brasileira, fundada em 2021, que rapidamente se destacou no cenário competitivo de Counter-Strike. Desde sua criação, a equipe tem se concentrado em reunir talentos locais, buscando fortalecer sua presença nas principais competições. A Imperial conquistou títulos importantes em torneios regionais, como a Liga Brasileira de Counter-Strike e a Gamers Club, demonstrando um desempenho consistente e competitivo. A equipe também participou de torneios internacionais, como as qualificatórias para eventos da ESL e BLAST, onde buscou se afirmar no cenário global.",
+    },
+
+  ],
+  ASIA: [
+    {
+      name: "TYLOO",
+      logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2023/05/TYLOO.png?w=300",
+      description: "A TYLOO é uma das organizações de eSports mais reconhecidas da China, especialmente no cenário de Counter-Strike. Fundada em 2015, a equipe rapidamente se destacou, conquistando diversos títulos importantes na região asiática. Entre suas conquistas, destaca-se o título da ESL One: New York 2016, onde se tornou a primeira equipe chinesa a vencer um torneio internacional de grande escala. Além disso, a TYLOO tem se destacado em competições como a WESG e a IEM Beijing. Com um elenco talentoso e uma forte presença em torneios regionais, a TYLOO continua a buscar novas conquistas e a elevar o status do CS na China, solidificando sua posição como uma das principais equipes da região.",
+    },
+    {
+      name: "ATOX",
+      logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2023/05/ATOX-1.png?w=300",
+      description: "A Atox é uma equipe de eSports asiática que se destacou no cenário de Counter-Strike nos últimos anos. Conhecida por seu talento e dedicação, a Atox tem conquistado espaço em competições regionais e internacionais. A equipe participou de diversas ligas, destacando-se em torneios como o ESEA e a Asia Championships, onde demonstrou um desempenho sólido contra adversários competitivos.",
+    },
+    {
+      name: "RARE ATOM",
+      logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2023/03/rare-atom.png?w=300",
+      description: "A Rare Atom é uma organização de eSports que se destacou no cenário de Counter-Strike, especialmente na região asiática. Desde sua formação, a equipe tem se concentrado em desenvolver talentos locais e competir em várias ligas e torneios. A Rare Atom conquistou títulos importantes em competições regionais, incluindo a ESEA e a APAC Championships, demonstrando um desempenho sólido e competitivo. Além de suas vitórias em torneios locais, a Rare Atom também participou de eventos internacionais, buscando expandir sua visibilidade e reconhecimento no cenário global.",
+    },
+    {
+      name: "CATEVIL",
+      logo: "https://eslpro.imgix.net/tour/wp-content/uploads/2024/03/CatEvil.png?w=300",
+      description: "A Catevil é uma organização de eSports asiática que se destacou no cenário de Counter-Strike. Desde sua fundação, a equipe tem focado em competir em várias ligas e torneios, mostrando um desempenho sólido contra adversários desafiadores. A Catevil conquistou reconhecimento ao participar de competições regionais, incluindo a ESEA e eventos da APAC, onde demonstrou seu talento e habilidade.",
+    },
+
   ],
 };
 
