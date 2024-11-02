@@ -124,7 +124,7 @@ function Teams() {
           margin-bottom: 20px;
           font-size: 24px;
           font-weight: 900;
-          color: #ff6600;
+          color: #FFA500;
         }
 
         .region-selector {
