@@ -23,13 +23,13 @@ function Header() {
                 <a href="#mapa" onClick={() => setMenuOpen(false)}>Mapa</a>
               </li>
               <li>
-                <a href="#progamacao" onClick={() => setMenuOpen(false)}>Programação</a>
+                <a href="#times" onClick={() => setMenuOpen(false)}>Times</a>
               </li>
               <li>
                 <a href="#hospedagem" onClick={() => setMenuOpen(false)}>Hospedagem</a>
               </li>
               <li>
-                <a href="#times" onClick={() => setMenuOpen(false)}>Times</a>
+                <a href="#programacao" onClick={() => setMenuOpen(false)}>Programação</a>
               </li>
             </ul>
           </div>
