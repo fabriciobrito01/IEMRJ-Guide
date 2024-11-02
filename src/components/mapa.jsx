@@ -44,7 +44,7 @@ function Map() {
         .title .top {
           font-size: 24px;
           font-weight: bold;
-          font-color: #FFEE51;
+          color: #FFA500;
         }
 
         .address {
