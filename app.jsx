@@ -4,6 +4,7 @@ import Footer from './src/components/footer.jsx';
 import Begin from './src/components/begin.jsx';
 import Map from './src/components/mapa.jsx';
 import Teams from './src/components/times.jsx';
+import SchedulePage from './src/components/programacao.jsx';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <section id="times" style={{ height: 'auto'}}>
         <Teams />
       </section>
-      <section id="contact" style={{ height: 'auto'}}>
+      <section id="programacao" style={{ height: 'auto'}}>
+        <SchedulePage />
       </section>
       <Footer />
     </div>

@@ -26,10 +26,10 @@ function Header() {
                 <a href="#times" onClick={() => setMenuOpen(false)}>Times</a>
               </li>
               <li>
-                <a href="#hospedagem" onClick={() => setMenuOpen(false)}>Hospedagem</a>
+                <a href="#programacao" onClick={() => setMenuOpen(false)}>Programação</a>
               </li>
               <li>
-                <a href="#programacao" onClick={() => setMenuOpen(false)}>Programação</a>
+                <a href="#hospedagem" onClick={() => setMenuOpen(false)}>Hospedagem</a>
               </li>
             </ul>
           </div>
