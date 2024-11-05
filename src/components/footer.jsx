@@ -1,16 +1,36 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../assets/iem-logo.png';
 
 function Footer() {
+
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      const headerOffset = 60; // Ajuste para a altura do seu cabeçalho
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
     <footer className="footer">
       <div className="footer-content">
+        <div className="logo">
+          <img src={logo} alt="Logo" className="footer-logo" />
+        </div>
         <div className="quick-links">
           <h4>Links Rápidos</h4>
           <ul>
-            <li><a href="#about">Sobre o Evento</a></li>
-            <li><a href="#schedule">Programação</a></li>
+            <li><Link to="/" onClick={() => { handleScroll('home'); setMenuOpen(false) }}>Início</Link></li>
+            <li><a href="/#programacao" onClick={() => { handleScroll('schedule'); setMenuOpen(false) }}>Programação</a></li>
             <li><a href="https://www.mundo-ticket.com/pt/evento/iem-rio-2024" target="_blank" rel="noopener noreferrer">Comprar Ingressos</a></li>
-            <li><a href="#faq">FAQ</a></li>
+            <li><Link to="/faq">FAQ</Link></li>
           </ul>
         </div>
 
@@ -31,7 +51,7 @@ function Footer() {
 
         <div className="footer-note">
           <p>© 2024 Intel Extreme Masters. Todos os direitos reservados.</p>
-          <p><a href="#privacy-policy">Política de Privacidade</a> | <a href="#terms">Termos de Uso</a></p>
+          <p><Link to="#privacy-policy">Política de Privacidade</Link> | <Link to="#terms">Termos de Uso</Link></p>
         </div>
       </div>
 
@@ -49,6 +69,20 @@ function Footer() {
           display: flex;
           flex-direction: column;
           align-items: center;
+        }
+        
+        .logo {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          width: 270px;
+        }
+
+        .logo img {
+          width: 100%;
+          max-width: 270px;
+          height: auto;
         }
 
         .footer h4 {

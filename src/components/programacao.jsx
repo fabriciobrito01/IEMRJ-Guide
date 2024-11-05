@@ -57,6 +57,7 @@ const SchedulePage = () => {
         .schedule-page ul.title {
           text-align: center;
           color: #FFA500;
+          margin-top: 20px;
         }
 
         .schedule-day {
@@ -64,7 +65,7 @@ const SchedulePage = () => {
         }
 
         h2 {
-          color: #fff; /* Cor para os títulos dos dias */
+          color: #fff;
           text-align: center;
         }
 

@@ -156,6 +156,7 @@ function Teams() {
           font-size: 24px;
           font-weight: 900;
           color: #FFA500;
+          margin-top: 20px;
         }
 
         .region-selector {
@@ -174,7 +175,7 @@ function Teams() {
         }
 
         .region-button.active, .region-button:hover {
-          background-color: #ff6600;
+          background-color: #FFA500;
         }
 
         .teams-grid {
