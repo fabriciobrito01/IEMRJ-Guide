@@ -8,6 +8,7 @@ import Teams from './src/components/times.jsx';
 import SchedulePage from './src/components/programacao.jsx';
 import Services from './src/components/servicos.jsx';
 import FAQ from './src/components/faq.jsx';
+import LoginPage from './src/components/login.jsx';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
             </>
           }
         />
+        <Route path='login' element={<LoginPage />}/>
         <Route path="faq" element={<FAQ />} />
       </Routes>
       <Footer />

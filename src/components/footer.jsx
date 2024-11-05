@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaFacebook, FaTwitter, FaInstagram, FaTwitch, FaDiscord, FaYoutube } from 'react-icons/fa'; // Importando os ícones
 import logo from '../assets/iem-logo.png';
 
 function Footer() {
-
   const handleScroll = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -27,8 +27,8 @@ function Footer() {
         <div className="quick-links">
           <h4>Links Rápidos</h4>
           <ul>
-            <li><Link to="/" onClick={() => { handleScroll('home'); setMenuOpen(false) }}>Início</Link></li>
-            <li><a href="/#programacao" onClick={() => { handleScroll('schedule'); setMenuOpen(false) }}>Programação</a></li>
+            <li><Link to="/" onClick={() => { handleScroll('home'); }}>Início</Link></li>
+            <li><a href="/#programacao" onClick={() => { handleScroll('schedule'); }}>Programação</a></li>
             <li><a href="https://www.mundo-ticket.com/pt/evento/iem-rio-2024" target="_blank" rel="noopener noreferrer">Comprar Ingressos</a></li>
             <li><Link to="/faq">FAQ</Link></li>
           </ul>
@@ -42,11 +42,14 @@ function Footer() {
 
         <div className="social-media">
           <h4>Redes Sociais</h4>
-          <ul>
-            <li><a href="https://facebook.com/iem" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-            <li><a href="https://twitter.com/iem" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-            <li><a href="https://instagram.com/iem" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-          </ul>
+          <div className="social-icons">
+            <a href="https://facebook.com/iem" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+            <a href="https://twitter.com/iem" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
+            <a href="https://www.discord.com/" target="_blank" rel="noopener noreferrer"><FaDiscord /></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            <a href="https://www.twitch.tv/" target="_blank" rel="noopener noreferrer"><FaTwitch /></a>
+          </div>
         </div>
 
         <div className="footer-note">
@@ -85,8 +88,26 @@ function Footer() {
           height: auto;
         }
 
+        .social-media {
+          margin: 20px 0;
+        }
+
+        .social-icons {
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+          margin-top: 20px;
+        }
+
+        .social-icons a {
+          color: white;
+          width: 30px;
+          height: 30px;
+          font-size: 50px;
+        }
+
         .footer h4 {
-          margin-bottom: 10px;
+          margin-bottom: 20px;
           font-size: 18px;
           color: #FFA500;
         }
@@ -95,8 +116,12 @@ function Footer() {
           color: #fff;
           font-size: 14px;
           line-height: 1.5;
-          margin: 5px 0;
+          margin: 0px 0;
           text-decoration: none;
+        }
+
+        .location {
+          margin-top: 20px;
         }
 
         .footer a:hover {
@@ -109,13 +134,8 @@ function Footer() {
           margin: 0;
         }
 
-        .footer ul li {
-          margin: 5px 0;
-        }
-
         .footer-note {
           text-align: center;
-          margin-top: 20px;
           font-size: 12px;
         }
 

@@ -33,6 +33,9 @@ function Header() {
         <div className={`header-menu-options ${menuOpen ? 'show' : ''}`}>
           <ul>
             <li>
+              <Link to="/login" onClick={() => setMenuOpen(false)}><span>Entrar</span></Link>
+            </li>
+            <li>
               <Link to="/" onClick={() => { handleScroll('home'); setMenuOpen(false) }}>Home</Link>
             </li>
             <li>
@@ -161,6 +164,10 @@ function Header() {
           text-decoration: none;
           color: #fff;
           font-size: 25px;
+        }
+
+        .header-menu-options span {
+          color: #FFA500;
         }
       `}</style>
     </header>

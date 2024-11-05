@@ -93,6 +93,10 @@ function FAQ() {
         a:hover {
           color: #ff6600;
         }
+
+        .footer h4 {
+          margin-top: -5px;
+        }
       `}</style>
     </div>
   );

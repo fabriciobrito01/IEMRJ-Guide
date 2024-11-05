@@ -162,6 +162,10 @@ function Services() {
         strong {
           color: #ff6600;
         }
+
+        .footer h4 {
+          margin-top: -10px;
+        }
       `}</style>
     </div>
   );

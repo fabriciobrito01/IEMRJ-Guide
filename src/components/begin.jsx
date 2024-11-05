@@ -38,7 +38,7 @@ function Begin() {
         }
 
         .botao {
-          margin-top: 20px;
+          margin-top: 40px;
         }
 
         .botao a {
